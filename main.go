@@ -11,7 +11,7 @@ func main() {
 	eLoop := new(engine.EventLoop)
 	eLoop.Start()
 	flag.Parse()
-	inputFile := "filename"
+	inputFile := "testFile.txt"
 
 	if input, err := os.Open(inputFile); err == nil {
 		defer input.Close()

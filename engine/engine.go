@@ -65,7 +65,7 @@ func Parse(str string) Command {
 		if len(array) == 3 {
 			byteArray := []byte(array[2])
 			if len(byteArray) == 1 {
-				return &DeleteCmd{Str: array[1], Symbol: byteArray[2]}
+				return &DeleteCmd{Str: array[1], Symbol: byteArray[0]}
 			}
 			return &PrintCmd{Msg: "Must be 1 char you want to remove!!!"}
 		}

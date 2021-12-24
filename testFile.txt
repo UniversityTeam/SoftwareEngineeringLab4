@@ -1,0 +1,6 @@
+delete abcdefg f
+delete asdssss s
+print Ban
+delete aaaaa 2 5
+delete abcdefgereew we
+delete Hello l

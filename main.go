@@ -4,7 +4,7 @@ import (
 	"bufio"
 	"os"
     	"flag"
-	"main/engine"
+    	"github.com/UniversityTeam/SoftwareEngineeringLab4/engine"
 )
 
 func main() {
